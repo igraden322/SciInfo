@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+h1{
+    font-family: "Jura";
+    text-align: center;
+}
+
+.full-article{
+    height: auto;
+    width: auto;
+    position: relative;
+    background-color: whitesmoke;
+    overflow: auto;
+    padding: 1%;
+    font-size: 18px;
+    font-family: "Roboto Light";
+}
+
+p{
+    text-indent: 20px;
+}
+
+.other{
+    margin-right: 50%;
+}
+
+.full-article > .article-image{
+    width: 30em;
+    margin-left: 14.5em;
+}
+
+.thumbs{
+    height: 30px;
+    margin-left: auto   ;
+}
+
+

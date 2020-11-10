@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+html,
+body {
+    height: 100%;
+    background-image: url(../pix/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: medium;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 70px 15px 70px;
+}
+
+.wrap > .container {
+     padding-right: 75px; 
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Jura";
+    color: black;
+    font-size: large;
+    z-index: 0;
+}
+
+
+.footer {
+    height: 60px;
+    background-color: rgba(36, 36, 36, 0.7);
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 60px 60px 15px 60px;
+}
+
+.nav li > form > button.logout {
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: snow;
+    background: rgba(36, 36, 36, 0.7);
+    font-family: "Jura";
+}
+
+.navbar-inverse {
+    background-color: rgba(36, 36, 36, 0.7);;
+    border-color: #08080800;
+    overflow: hidden;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: snow;
+    background:rgba(36, 36, 36, 0.7);
+    font-family: "Jura";
+}
+
+nav ul li.active {
+    background-color: rgba(0,0,0,0);
+}
+
+.sidenav-right{
+    height: 80%; /* Full-height: remove this if you want "auto" height */
+    width: 10%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    left: 0;
+    background-color: rgba(36, 36, 36, 0.7);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    top: 10%;
+}
+
+.sidenav-left{
+    height: 80%; /* Full-height: remove this if you want "auto" height */
+    width: 13%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    right: 0;
+    background-color: rgba(36, 36, 36, 0.7);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    top: 10%;
+}
+
+.sidenav-article{
+    padding: 9px;
+    height: auto;
+    background-color:whitesmoke;
+    font-family: "Jura";
+    font-size: large;
+}
+
+.news-block{
+    padding: 5px;
+    border: 3px solid snow;
+    width: 35%;
+    gap: 5px;
+    position: relative;
+    display: block;
+}  
+
+.news{
+    display: grid;
+}
+
+.status-main-info{
+    padding: 8px 15px;
+    background-color: #f5f5f5;
+    font-family: "Calibri";
+    height: 50rem;
+    width: 50rem;
+    margin-top: 10rem;
+    position: relative;
+}
+
+.sidenav-thumbs{
+    margin-top: -2px;
+}
+
+a.text:active,
+a.text:hover,  
+a.text {
+  text-decoration: none;
+  color: black;
+}
