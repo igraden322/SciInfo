@@ -33,8 +33,8 @@ $config = [
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.gmail.com',
-                'username' => 'danila0512@mail.ru',
-                'password' => 'RandomPassword',
+                'username' => 'p_d.a.grachev@mpt.ru',
+                'password' => 'School4MPTSP',
                 'port' => '587',
                 'encryption' => 'tls',
                 ],
